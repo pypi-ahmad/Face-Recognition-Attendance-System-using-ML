@@ -1,0 +1,119 @@
+The project is attached with .yml file and a test_video for your ref , so that you atleast run a demo
+
+the file paths are hardcoded!!! so in case you run make sure you change paths
+
+Thanx
+*******************************************************************************
+
+to upgrade pip version -
+pip install --upgrade pip
+
+
+1.pandas - 
+pip install pandas 
+
+pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with structured
+(tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive.
+It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python.
+
+https://pypi.org/project/pandas/
+
+
+
+2.opencv-python - 
+pip install opencv-contrib-python==4.1.0.25
+
+OpenCV-Python is an appropriate tool for fast prototyping of computer vision problems.
+for more info - https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_intro/py_intro.html#intro
+
+https://pypi.org/project/opencv-python/4.1.1.26/
+
+
+3.pillow -
+pip install pillow
+
+simply use to work with images efficiently 
+
+https://pypi.org/project/Pillow/2.2.1/
+
+
+4.smtplib -
+pip install secure-smtplib
+
+used to mail someone with python
+
+https://pypi.org/project/secure-smtplib/
+
+
+5.holidays - 
+pip install holidays
+
+helps in working with holidays and working days
+
+https://pypi.org/project/holidays/
+
+6.openpyxl - 
+pip install openpyxl
+
+openpyxl is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
+
+https://pypi.org/project/openpyxl/
+
+7.tkinter - 
+comes along with python
+for GUI 
+
+
+8.xlrd - 
+pip install xlrd
+
+xlrd is a library for reading data and formatting information from Excel files in the historical .xls format.
+
+https://pypi.org/project/xlrd/
+
+******************************************************************************************
+
+or simply write them in a file requirements.txt and run it...
+pip install -r requirements.txt
+
+*******************************************************************************************
+requirement for detection purpose
+Haarcascade - 
+https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
+
+
+
+*****************************************************************************************************
+
+Haarcascade - 
+Haar Cascade classifier is an effective object detection approach which was proposed by Paul Viola and Michael Jones
+This is basically a machine learning based approach where a cascade function is trained from a lot of images both positive and negative.
+Based on the training it is then used to detect the objects in the other images.
+
+Face Detection: it has the objective of finding the faces (location and size) in an image and probably extract
+them to be used by the face recognition algorithm.
+
+Face Recognition: with the facial images already extracted, cropped, resized and usually converted to grayscale
+the face recognition algorithm is responsible for finding characteristics which best describe the image.
+
+**********************************************************************************************************
+
+Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an
+image by thresholding the neighborhood of each pixel and considers the result as a binary number.
+
+the LBPH uses 4 parameters:
+
+Radius: the radius is used to build the circular local binary pattern and represents the radius around the central pixel. It is usually set to 1.
+
+Neighbors: the number of sample points to build the circular local binary pattern. Keep in mind: the more sample points you include, the higher the computational cost. It is usually set to 8.
+
+Grid X: the number of cells in the horizontal direction. The more cells, the finer the grid, the higher the dimensionality of the resulting feature vector. It is usually set to 8.
+
+Grid Y: the number of cells in the vertical direction. The more cells, the finer the grid, the higher the dimensionality of the resulting feature vector. It is usually set to 8.
+
+LBPH is one of the easiest face recognition algorithms.
+It can represent local features in the images.
+It is possible to get great results (mainly in a controlled environment).
+It is robust against monotonic gray scale transformations.
+It is provided by the OpenCV library (Open Source Computer Vision Library).
+

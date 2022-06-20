@@ -1,0 +1,14 @@
+
+
+step 1 - obtain videos of a certain number of people , "make sure you also obtain one with all together as it will help
+in recognition purpose "
+
+step 2 - Create a folder (dataset) and within that create folders for all people whose images you want to store,
+these are those whose videos you took.
+Name them in numeric order like 0,1,2,3..... for easy use in code
+
+step 3 - Use spilt.py from tools , and generate frames ie images from video in every folder
+
+step 4 - convert the images to gray images by to_grayscale.py from scripts folder and save them to a diffrent folder (gray_images)
+
+

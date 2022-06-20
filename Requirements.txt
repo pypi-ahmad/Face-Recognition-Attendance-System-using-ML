@@ -1,0 +1,7 @@
+pandas
+opencv-contrib-python
+pillow
+secure-smtplib
+holidays
+openpyxl
+xlrd

@@ -1,0 +1,9 @@
+insightface
+onnxruntime
+chromadb
+streamlit
+pandas
+openpyxl
+opencv-python
+numpy
+faker

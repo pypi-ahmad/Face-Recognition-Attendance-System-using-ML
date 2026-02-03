@@ -1,7 +1,8 @@
+insightface
+onnxruntime
+chromadb
+streamlit
 pandas
-opencv-contrib-python
-pillow
-secure-smtplib
-holidays
 openpyxl
-xlrd
+opencv-python
+numpy

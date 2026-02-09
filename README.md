@@ -48,8 +48,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/AccessGuard-AI.git
-cd AccessGuard-AI
+git clone https://github.com/pypi-ahmad/Face-Recognition-Attendance-System-using-ML.git
+cd Face-Recognition-Attendance-System-using-ML
 ```
 
 ### 2. Set Up Environment
@@ -125,3 +125,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 - [ ] Cloud sync for multi-campus deployment.
 
 Author: Ahmad | License: MIT
+
